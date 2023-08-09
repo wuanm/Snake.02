@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Snake</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+
+
+
+  <body>
+    <div id="main" class="main">
+      <Header class="titulo"> <h1 class="snak">SNAKE</h1></Header>
+      <img class="imagen" src="https://img2.freepng.es/20180208/hye/kisspng-snakes-and-ladders-game-android-clip-art-animated-snake-pictures-5a7c988485b4d1.8632212215181149485477.jpg" alt="serpiente-imagen">
+      <footer id= "foter" class="footer"><h3 class="ju">Derechos reservadoso by<b>JUANMA</b> 2023</h3></footer>
+      <button id="boton" class="button">Iniciar</button>
+    </div>
+
+
+    <div class="contenedor" id="contenedor">
+       <Header class="titulo"> <h1 class="snak">SNAKE</h1></Header>
+       <div class="opciones">
+       <h2  class="Record">Record :</h2>
+       <h2 id= "record" class="valorvida">0</h2>
+       <h2 class="contador">Contador:</h2>
+       <h2 id="total" class="numcantidad">0</h2>
+      </div>
+       <footer class="footer"><h3 class="ju">Derechos reservadoso by<b>JUANMA</b> 2023</h3></footer>
+
+    </div>
+    <script src="sketch.js"></script>
+    <script src="serpiente.js"></script>
+    <script src="comida.js"></script>
+  </body>
+</html>
